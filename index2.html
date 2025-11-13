@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WanderWorld Travel Agency</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">WanderWorld</a>
+     <div class="d-flex ms-auto gap-3">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#destinations">Destinations</a>
+        <a class="nav-link" href="#tours">Tours</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h1>Explore the World with Us</h1>
+      <p>Your adventure begins here</p>
+      <a href="#destinations" class="btn btn-primary btn-lg">Start Your Journey</a>
+    </div>
+  </section>
+
+  <section id="destinations" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Popular Destinations</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="paris.webp" class="card-img-top" alt="Paris">
+            <div class="card-body">
+              <h5 class="card-title">Paris, France</h5>
+              <p class="card-text">Discover the Eiffel Tower and romantic Parisian streets.</p>
+              <a href="#" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="bali.webp" class="card-img-top" alt="Bali">
+            <div class="card-body">
+              <h5 class="card-title">Bali, Indonesia</h5>
+              <p class="card-text">Relax on stunning beaches and explore tropical jungles.</p>
+              <a href="#" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="NYR.webp" class="card-img-top" alt="New York">
+            <div class="card-body">
+              <h5 class="card-title">New York, USA</h5>
+              <p class="card-text">Experience the city that never sleeps with its iconic landmarks.</p>
+              <a href="#" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="tours" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Our Tours</h2>
+
+      <details open>
+        <summary>European Adventure</summary>
+        <p>Explore top cities in Europe with guided tours and cultural experiences. 
+        <a href="#">View Details</a></p>
+      </details>
+
+      <details>
+        <summary>Tropical Getaway</summary>
+        <p>Enjoy the sun, beaches, and exotic food of tropical islands. 
+        <a href="#">View Details</a></p>
+      </details>
+
+      <details>
+        <summary>City Explorer</summary>
+        <p>Discover modern cities filled with history, art, and amazing food. 
+        <a href="#">View Details</a></p>
+      </details>
+
+    </div>
+  </section>
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="destination" class="form-label">Destination of Interest</label>
+              <input type="text" id="destination" class="form-control" placeholder="Where would you like to go?">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" rows="4" class="form-control" placeholder="Write your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary px-4">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p class="mb-0">&copy; 2025 WanderWorld Travel Agency | Follow us on 
+      <a href="#" class="text-white">Facebook</a>, 
+      <a href="#" class="text-white">Instagram</a>, 
+      <a href="#" class="text-white">Twitter</a>
+    </p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+ 
+    html {
+      scroll-behavior: smooth;
+    }
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      
+    }
+    .hero {
+      background-image: url('sinic.webp');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    details {
+      background: #f8f9fa;
+      padding: 10px 15px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    summary {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    details p {
+      margin-top: 10px;
+    }
